@@ -29,7 +29,7 @@ function Listbox(){
             })
           }
           
-        </table>:<span>loading</span>}
+        </table>:<span></span>}
         <button onClick={function(){dispatch(getCars())}}>Get</button>
     </div>
   );
